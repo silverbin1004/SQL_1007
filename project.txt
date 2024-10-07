@@ -30,6 +30,7 @@ SELECT * FROM students WHERE name LIKE '김%';
 
 문제 9 - 범위를 지정하여 데이터를 조회할 때 사용하는 연산자는 무엇인가요? 예시와 함께 설명하세요.
   -> BETWEEN
+    SELECT * FROM users WHERE age BETWEEN 20 AND 30;
 
 문제 10 - INSERT 문을 사용하여 여러 행을 한 번에 삽입하는 방법을 예시와 함께 설명하세요.
   -> INSERT INTO users(name,age) VALUES

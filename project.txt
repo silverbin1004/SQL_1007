@@ -42,7 +42,7 @@ SELECT * FROM students WHERE name LIKE '김%';
     ex) update users set age = 50;
 
 문제 12 - DELETE 문과 TRUNCATE 문의 차이점을 설명하세요.
-  -> delete 는 조건을 만족하는 행 데이터를 삭제하지만 TRUNCATE는 행 전체의 데이터를 지울 뿐 아니라 저장공간도 삭제한다.
+  -> delete 는 조건을 만족하는 행 데이터를 삭제하지만 TRUNCATE는 테이블의 모든 데이터를 삭제한다.
 
 문제 13 - GROUP BY 절의 기능과 함께 집계 함수를 사용하는 예시를 보여주세요.
   -> select grade, count(*) as '학생 수' from students group by grade;
